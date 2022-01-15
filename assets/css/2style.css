@@ -1,0 +1,13 @@
+*{ 
+  margin: 10px;
+  padding: 5px;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav experience {
+  display: flexbox;
+  box-sizing: 300px 35%;
+}
