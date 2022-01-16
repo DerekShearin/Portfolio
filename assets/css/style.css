@@ -11,32 +11,30 @@ body {
 
 /* apply styles to <header> */
 header {
-  padding: 10px 20px 10px 20px;
-  background-color: dimgray;
+  padding: 20px;
+   background-color: dimgray;
   color: khaki;
   border-radius: 10px;
   border: 3px solid khaki;
 }
-
  header h1 {
   font-weight: bold;
   font-size: 36px;
   background-color: dimgray;
   color: khaki;
   font-weight: lighter;
-  margin: 0;
+  padding: 20px;
+  margin: 10px;
   display: inline;
 }
 header nav {
   flex: wrap;
   float: right;
-  margin:0 20px 0 20px;
+  margin: 10px;
 }
-
 header li {
   display: inline;
 }
-
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
@@ -70,26 +68,23 @@ footer a {
 }
 
 section {
-  padding: 60px;
+  padding: 10px;
 }
 .project {
   display: flex-wrap;
   flex-wrap: wrap;
-  width: 350px;
+  width: 550px;
+  height: 150;
   background-color: khaki;
   color: #39a6b2;
-  size: 50px 25%;
   
 }
 
-section .hero {
+.hero {
   background-image: url("../images/Hatteraslighthoue.jpg");
-  height: 50px;
+  height: 100px;
   background-size: cover;
-  border-radius: 10px;
- border-width: 3px;
- border-style: solid;
- border-color: khaki;
+  
 }
 
 .info {
@@ -108,10 +103,12 @@ section .hero {
   font-size: 20px;
   margin: 25px;
 }
-section div #portfolio {
+section .info #portfolio {
   border-radius: 5px;
   width: 350;
   height: 500;
+  display: flex;
+  flex-direction: row;
 }
 
 .section-title {
@@ -125,18 +122,6 @@ section div #portfolio {
 
 .primary-border {
   border-color: khaki;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 /* REACH OUT STYLES START */
