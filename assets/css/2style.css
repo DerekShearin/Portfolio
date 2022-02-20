@@ -1,3 +1,4 @@
+
 *{ 
  
   background-color: dimgray;
@@ -9,5 +10,8 @@ header {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
+  display: flex;
+  flex-wrap: nowrap;
  font-family: Arial, Helvetica, sans-serif;
  margin: 25px;
+ color: mediumturquoise;

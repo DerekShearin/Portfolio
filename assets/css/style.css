@@ -1,37 +1,57 @@
 * {
-  margin: 10px;
-  
-  
+  /* margin: 20px 20px 40px 20px;  */
 }
 
 body {
-  background-color: black;
+  /* background-image: url("../images/untitled.png"); */
+  /* background-image: url("../images/Hatteraslighthoue.jpg"); */
   color: khaki;
   font-family: Helvetica, Arial, sans-serif;
+  background-color: black;
+  
 }
-
 
 header {
-  padding: 20px 0 20px 0;
-  background-color: dimgray;
+  /* display: inside; */
+  /* padding: 55px; */
+  background-color: black;
   color: khaki;
-  border-radius: 10px 10px 0 0;
-  /* border: 3px solid khaki; */
+  border-radius: 18px;
+  border: 8px ridge khaki; 
+  height: 250px;
+  margin: 20px 20px 40px 20px; 
+  
 }
- header h1 {
-  font-weight: bold;
+
+header div {
+/* display: flex;
+flex-wrap: nowrap; */
+/* font-size: 55px; */
+color: darkred;
+/* margin-bottom: 25px; */
+padding: 0 25px 20px 50px;
+display: inline-block;
+border-bottom: 3px solid;
+
+
+}
+ header h2 {
+  color: darkred;
+  margin-bottom: 25px;
+  padding: 0 0 0 50px;
+  display: inline-block;
+  border-bottom: 3px solid khaki;
+  border-bottom-left-radius: 18px;
+  /* font-weight: bold;
   font-size: 36px;
-  background-color: dimgray;
-  color: khaki;
-  font-weight: lighter;
-  margin: 0 10px 0 10px;
-  display: inline;
-  font-family: Helvetica, Arial, sans-serif;
+  color: khaki; 
+  /* margin: 0 10px 0 10px; */
+  display: inline;*/
 }
+
 header nav {
-  flex: wrap;
-  float: right;
- margin: 0 0 10px 0;
+justify-content: flex-end;
+ margin: 20px;
 }
 header li {
   display: inline;
@@ -41,20 +61,31 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
   color: khaki;
+  list-style-type: none;
 }
+/* header .hero { */
+  /* background-image: url("../images/Hatteraslighthoue.jpg");
+  background-size: 100%;
+  vertical-align: bottom;
+  height: 100px;
+  border-radius: 0 0 10px 10px;
+  } */
+
 
 footer {
-  background: dimgray;
-  padding: 40px 35px;
+  background: black;
   border-radius: 10px;
-  border: 3px solid khaki;
+  border: 8px ridge khaki;
+  margin: auto; 
+  height: 75px;
+  display: flex;
 }
 
-footer h2 {
-  display: inline;
+footer p {
+  text-align: center;
   color: khaki;
-  font-size: 30px;
-  margin: 0;
+  font-size: 20px;
+  margin: auto;
 }
 
 footer div {
@@ -62,66 +93,66 @@ footer div {
   line-height: 1.5;
   text-align: right;
 }
-
-footer a {
-  color: khaki;
- 
-}
-
-section {
-  padding: 10px;
-}
+/* 
+#portfolio {
+  display: inline-flexbox;
+} */
 .project {
-  display: flex-wrap;
-  flex-wrap: wrap;
-  width: 550px;
-  height: 150;
+  width: 250PX;
+  height: 50px;
   background-color: khaki;
   color: #39a6b2;
+  border-radius: 10px;
+  border: 8px ridge lightgray;
+  margin: 20px
+  text-align: center;
 }
 
-.hero {
-  background-image: url("../images/Hatteraslighthoue.jpg");
-  height: 100px;
-  background-size: cover;
-  margin: 0 10px 0 10px;
-  border-radius: 0 0 10px 10px;
-}
-body div {
-  border-color: khaki;
-}
+
 .info {
- border-radius: 10px;
- border: 3px solid khaki;
- text-align: left;
- background-color: dimgray;
- box-sizing: 200px;
+  text-align: left;
+  background-color: black;
+  display: block;
+  margin: 20px 20px 40px 20px;
+  border-radius: 18px;
+  border: 8px ridge khaki; 
+
+ 
  }
 
 .info p {
-  text-align: left;
+  /* text-align: left; */
   line-height: 1.7;
   color: khaki;
-  width: 80%;
+  width: 98;
   font-size: 20px;
   margin: 25px;
 }
-div.project {
-  display: inline;
+section {
+
+
+}
+section .info {
+  display: block;
+  flex-direction: row;
+  margin: 20px 20px 40px 20px; 
+}
+.project {
+  display: block;
   border-radius: 10px;
   width: 350;
-  height: 500;
-  display: flex;
-  flex-direction: row;
+  height: 50;
+  align-items: center;
 }
 
 .section-title {
   font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
+  color: darkred;
+  margin-top: 25px; 
+  padding: 0 25px 20px 50px;
   display: inline-block;
   border-bottom: 3px solid;
+  border-bottom-left-radius: 18px;
 }
 
 .primary-border {
@@ -131,35 +162,43 @@ div.project {
 /* REACH OUT STYLES START */
 .contact {
   text-align: center;
-  background: dimgray;
-  border: 3 solid khaki;
+  background: khaki;
+  border: 3 solid dimgray;
 }
-
-.contact h2 {
+.project {
+  display:inline-flexbox;
+  margin: 20px;
+  text-align: center;
+}
+#reach-out img {
+  border: 8px ridge khaki;
+  border-radius: 10px;
+  height: 250px;
+  box-shadow: 10px 10px black;
+}
+.contact-info {
+  /* display: grid; */
+  
+  /* text-align: left; */
+  /* margin: 30px; */
   color: khaki;
-}
-
-
-.contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
-  color: white;
 }
 
 .contact-info h3 {
   color: khaki;
   font-size: 32px;
+  padding: 0 0 0 50px;
+  text-align: center;
 }
 
-.contact-info p,
-.contact-info address {
-  margin: 20px 0;
-  line-height: 1.5;
+.contact-info .address {
+  /* margin: 10px 0; */
+  /* line-height: 1.5; */
   font-size: 20px;
-  font-style: normal;
+  list-style: none;
+  text-align: center;
+  
+  
 }
 
 .contact-info a {
