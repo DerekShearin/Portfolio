@@ -10,7 +10,7 @@ header {
   color: khaki;
   border-radius: 18px;
   border: 8px ridge khaki; 
-  height: 250px;
+  /* height: 300px; */
   margin: 20px 20px 40px 20px; 
 }
 
@@ -28,11 +28,6 @@ header div {
   display: inline-block;
   border-bottom: 3px solid khaki;
   border-bottom-left-radius: 18px;
-}
-
-header nav {
-  justify-content: flex-end;
-  margin: 20px;
 }
 
 header li {
@@ -87,7 +82,7 @@ section .info {
 }
 
 /* portfolio samples */
-.project {
+.project h3{
   background-color: khaki;
   color: black;
   border-radius: 10px;
@@ -96,21 +91,19 @@ section .info {
   text-align: center;
   border-radius: 16px;
   position: relative;
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   height: 60px;
   padding: 16px;
   width: 160px;
   padding: 15px 32px;
-  text-align: center;
   display: inline-block;
   font-size: 16px; 
 }
-
-.project:hover {
-  background-color: black;
-  color: khaki;
-} 
+.project {
+  display: inline-block;
+  list-style-type: none;
+}
 
 /* REACH OUT STYLES START */
 .contact {
@@ -136,8 +129,7 @@ section .info {
 .contact-info h3 {
   color: khaki;
   font-size: 32px;
-  padding: 0 0 0 50px;
-  text-align: center;
+  padding: 0 0 0 40px;
 }
 
 .contact-info .address {

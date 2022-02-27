@@ -1,17 +1,38 @@
 
-*{ 
- 
-  background-color: dimgray;
-}
+body {
+  background-image: url("../images/racingstripeBG.png");
+  color: khaki;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: black;
+  background-image: url("../images/racingstripeBG.png");
+  color: khaki;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: black;
+  }
+
 header {
   margin: 25px;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: khaki;
+    border-radius: 18px;
+    border: 8px ridge khaki; 
+    /* height: 300px; */
+    margin: 20px 20px 40px 20px; 
+  }
+  
+  header h3 {
+  color: darkred;
+  margin-bottom: 25px;
+  padding: 0 0 0 50px;
+  display: inline-block;
+  border-bottom: 3px solid khaki;
+  border-bottom-left-radius: 18px;
 }
-h1 {
-  display: flex;
-  flex-wrap: nowrap;
- font-family: Arial, Helvetica, sans-serif;
- margin: 25px;
- color: mediumturquoise;
+.addMarg {
+  padding-left: 25px;
+}
+
+  
